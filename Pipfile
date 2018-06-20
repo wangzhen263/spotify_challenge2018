@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+"autopep8" = "*"
+
+[packages]
+ipykernel = "*"
+pandas = "*"
+numpy = "*"
+scipy = "*"
+"fastText" = {git = "https://github.com/facebookresearch/fastText.git", ref = "master"}
+"pybind11" = "*"
+
+[requires]
+python_version = "3.6"
